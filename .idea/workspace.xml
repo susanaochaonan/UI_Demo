@@ -32,9 +32,11 @@
       <change afterPath="$PROJECT_DIR$/../UI/web/xueqiu/po/homePage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UI/web/xueqiu/testcase/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UI/web/xueqiu/testcase/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Ui_Demo/iSelenium.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Ui_Demo/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Ui_Demo/test/web_ut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Ui_Demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Ui_Demo/iAppium_python.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Ui_Demo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Ui_Demo/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Ui_Demo/test/cm_test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dump/dump/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dump/dump/class_demo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dump/dump/xueqiu_maplocal.py" afterDir="false" />
@@ -42,6 +44,8 @@
       <change afterPath="$PROJECT_DIR$/../dump/testcase/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dump/testcase/json_traval.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dump/testcase/test_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../base/base/dict_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/../base/base/dict_type.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web_Ui_Demo/iSelenium.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
               <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App_Ui_Demo/test/cm_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App_Ui_Demo/iAppium_python.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,29 +105,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Web_Ui_Demo/test/web_ut.py" />
         <option value="$PROJECT_DIR$/Web_Ui_Demo/iSelenium.ini" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/UI_Demo.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/App_Ui_Demo/test/cm_test.py" />
+        <option value="$PROJECT_DIR$/App_Ui_Demo/iAppium_python.json" />
+        <option value="$PROJECT_DIR$/App_Ui_Demo/requirements.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="484" />
-    <option name="y" value="129" />
+    <option name="x" value="247" />
+    <option name="y" value="88" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -126,7 +141,7 @@
             <path>
               <item name="UI_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI_Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Web_Ui_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="App_Ui_Demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,6 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -196,7 +212,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="484" y="129" width="1400" height="1000" extended-state="1" />
+    <frame x="247" y="88" width="1400" height="1000" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -233,6 +249,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Ui_Demo/test/cm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Ui_Demo/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Ui_Demo/iAppium_python.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
